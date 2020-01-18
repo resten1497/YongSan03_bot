@@ -1,2 +1,2 @@
-.node_modules
-./src/api/API_CODE.js
+node_modules
+/src/api/API_CODE.js
