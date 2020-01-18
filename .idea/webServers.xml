@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aafe904f-cf08-484b-80c9-8cc156232f57" name="bus" url="http://13.125.72.93">
+        <fileTransfer host="13.125.72.93" port="22" privateKey="$PROJECT_DIR$/../BusKeyPare.pem" rootFolder="/home/ec2-user/app" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
